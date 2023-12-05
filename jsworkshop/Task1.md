@@ -13,8 +13,7 @@ Before starting this session, ensure you have received the Azure OpenAI API keys
 
 ### Step 2: Install NPM Packages
 - **2.1 Install LangChain and other dependencies**:
-  - Run `npm install langchain`.
-  - Install `axios` for HTTP requests.
+  - Run `npm install langchain axios dotenv`.
 
 ### Step 3: Azure OpenAI API Integration
 - **3.1 Configure .env file**:
@@ -25,6 +24,12 @@ Before starting this session, ensure you have received the Azure OpenAI API keys
   -  Replace LLM Model With Chat Model, and check that it works as expected.
   -  With the same PromptTemplate, change the Temperature to see how the output changes.
 
+<details>
+  <summary>Hint</summary>
+
+Provide all four parameters for Azure: API_KEY, API_VERSION, BASE_PATH, and DEPLOYMENT_NAME
+
+</details>
 
 ### Step 4: Register on HuggingFace and Get an API Key
 

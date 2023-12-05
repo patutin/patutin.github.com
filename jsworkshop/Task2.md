@@ -15,7 +15,7 @@ This workshop offers hands-on experience in creating and manipulating chains usi
 - Modify the existing chain to use a streaming function.
 - Call and check the results of the streaming function.
 - Modify the chain to use with a batch of inputs.
-- Checke the results of the batch function.
+- Check the results of the batch function.
 - 
 ### Task 3: Chaining Multiple OpenAI Calls
 - Create prompt for describing a dish in a restaurant.
@@ -25,7 +25,7 @@ This workshop offers hands-on experience in creating and manipulating chains usi
 
 ### Task 4: Chaining Multiple Models Calls
 - Use the same prompt as in previous task.
-- Replase seconde prompt with text for generation image based on description.
+- Replace the second prompt with text for generation image based on description.
 - Create a chain that used first prompt to generate a description and formant resonse from model as string.
 - Create runnable object that use response from first chain as input for second chain.
 - Save generate image into file. 
