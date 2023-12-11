@@ -6,14 +6,7 @@
 
 ### Step 1. Warm Up: Install and Configure
 
-1. **Clone the Repository:**
-
-    ```bash
-    git clone https://github.com/patutin/SemanticKernelWorkshop.git
-    cd SemanticKernelWorkshop
-    ```
-
-2. **Check Installed .NET Versions:**
+1. **Check Installed .NET Versions:**
 
     ```bash
     dotnet --list-sdks
@@ -21,19 +14,19 @@
 
     Ensure that .NET version 7.0 is installed.
 
-3. **Run the PowerShell Script:**
+2. **Run the PowerShell Script:**
 
     Run the provided PowerShell script to set up the project, creating a new solution, console project, and adding necessary configurations.
 
     [setupproject.ps1](https://github.com/patutin/patutin.github.com/blob/main/semantickernel/scripts/setupproject.ps1)
 
-4. **Run the Shell Script:**
+3. Or **Run the Shell Script:**
 
     Run the provided shell script to set up the project. Similar to the PowerShell script, it automates the creation of the solution, console project, and necessary configurations.
 
     [setupproject.sh](https://github.com/patutin/patutin.github.com/blob/main/semantickernel/scripts/setupproject.sh)
 
-5. **Set API Keys:**
+4. **Set API Keys:**
 
     - Review the created files in the project directory.
     - Add your API keys or make any necessary adjustments in the `settings.json` file.
@@ -50,20 +43,20 @@
       },
       {
         "model": "gpt-4-32k",
-        "apikey": "your-api-key-2",
+        "apikey": "your-api-key-1",
         "endpoint": "https://ai-proxy.lab.epam.com",
         "serviceid": "AzureGpt4TurboService"
       },
       {
         "model": "google/flan-t5-xxl",
-        "apikey": "your-api-key-3",
+        "apikey": "", <-- this key you will get later
         "endpoint": "none",
         "serviceid": "HuggingFaceService"
       }
     ]
     ```
 
-6. **Run the Application:**
+5. **Run the Application:**
 
     ```bash
     cd SemanticKernelWorkshop
