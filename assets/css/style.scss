@@ -252,8 +252,8 @@ body {
 /* ─── Lists ────────────────────────────────────────────────────────────── */
 
 .main-content ul {
-  list-style-type: disc;
-  padding-left: 1.6rem;
+  list-style: none;
+  padding-left: 0;
   margin-bottom: .9rem;
 }
 
@@ -263,16 +263,42 @@ body {
   margin-bottom: .9rem;
 }
 
-.main-content ul ul  { list-style-type: circle;  margin-bottom: 0; }
-.main-content ul ul ul { list-style-type: square; margin-bottom: 0; }
 .main-content ol ol  { list-style-type: lower-alpha; margin-bottom: 0; }
 
-.main-content li {
+/* ul bullets via ::before so we can flex-center them vertically */
+.main-content ul > li {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
   margin-bottom: .45rem;
   line-height: 1.65;
 }
 
-.main-content li > ul,
+.main-content ul > li::before {
+  content: "•";
+  color: var(--text-muted);
+  font-size: 1.1em;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+/* nested bullets */
+.main-content ul ul {
+  list-style: none;
+  padding-left: 1.2rem;
+  margin-top: .3rem;
+  margin-bottom: 0;
+}
+
+.main-content ul ul > li::before { content: "◦"; }
+.main-content ul ul ul > li::before { content: "▪"; font-size: .75em; }
+
+/* ol items use default browser layout */
+.main-content ol > li {
+  margin-bottom: .45rem;
+  line-height: 1.65;
+}
+
 .main-content li > ol {
   margin-top: .3rem;
 }
