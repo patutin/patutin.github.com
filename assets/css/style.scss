@@ -254,24 +254,33 @@ body {
 .main-content ul {
   list-style: none;
   padding-left: 0;
-  margin-bottom: .9rem;
+  margin-top: 0;
+  margin-bottom: .6rem;
+}
+
+/* Collapse gap between consecutive lists (kramdown sometimes splits) */
+.main-content ul + ul,
+.main-content ol + ol {
+  margin-top: 0;
 }
 
 .main-content ol {
   list-style-type: decimal;
   padding-left: 1.6rem;
-  margin-bottom: .9rem;
+  margin-bottom: .6rem;
 }
 
-.main-content ol ol  { list-style-type: lower-alpha; margin-bottom: 0; }
+.main-content ol ol { list-style-type: lower-alpha; margin-bottom: 0; }
 
 /* ul bullets via ::before so we can flex-center them vertically */
 .main-content ul > li {
   display: flex;
   align-items: center;
   gap: .6rem;
-  margin-bottom: .25rem;
-  line-height: 1.65;
+  margin: 0 0 .2rem 0;
+  padding: 0;
+  background: none;
+  line-height: 1.55;
 }
 
 .main-content ul > li::before {
@@ -279,33 +288,37 @@ body {
   color: var(--text-muted);
   font-size: 1.1em;
   flex-shrink: 0;
+  align-self: center;
   line-height: 1;
 }
 
-/* Kill paragraph spacing inside list items */
-.main-content li > p {
-  margin: 0;
+/* Kill ALL paragraph spacing inside list items — any depth */
+.main-content li p {
+  margin: 0 !important;
+  padding: 0;
 }
 
 /* nested bullets */
 .main-content ul ul {
   list-style: none;
   padding-left: 1.2rem;
-  margin-top: .3rem;
+  margin-top: .15rem;
   margin-bottom: 0;
 }
 
 .main-content ul ul > li::before { content: "◦"; }
 .main-content ul ul ul > li::before { content: "▪"; font-size: .75em; }
 
-/* ol items use default browser layout */
+/* ol items */
 .main-content ol > li {
-  margin-bottom: .25rem;
-  line-height: 1.65;
+  margin: 0 0 .2rem 0;
+  padding: 0;
+  background: none;
+  line-height: 1.55;
 }
 
 .main-content li > ol {
-  margin-top: .3rem;
+  margin-top: .15rem;
 }
 
 /* ─── Blockquotes ──────────────────────────────────────────────────────── */
