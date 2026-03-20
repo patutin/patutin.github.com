@@ -272,13 +272,11 @@ body {
 
 .main-content ol ol { list-style-type: lower-alpha; margin-bottom: 0; }
 
-/* ul bullets via ::before so we can flex-center them vertically */
+/* ul bullets via ::before with absolute positioning */
 .main-content ul > li {
-  display: flex;
-  align-items: center;
-  gap: .6rem;
+  position: relative;
+  padding-left: 1.4rem;
   margin: 0 0 .2rem 0;
-  padding: 0;
   background: none;
   line-height: 1.55;
 }
@@ -287,9 +285,10 @@ body {
   content: "•";
   color: var(--text-muted);
   font-size: 1.1em;
-  flex-shrink: 0;
-  align-self: center;
-  line-height: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 1.55;
 }
 
 /* Kill ALL paragraph spacing inside list items — any depth */
