@@ -1,3 +1,8 @@
+---
+layout: default
+title: Domains Knowledge
+---
+
 # Domains Knowledge
 
 ## Domain 1: Agentic Architecture & Orchestration
