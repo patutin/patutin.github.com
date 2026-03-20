@@ -1,0 +1,163 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ─── Typography ─────────────────────────────────────────────── */
+body {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.main-content h1 { font-size: 2rem; border-bottom: 2px solid #e1e4e8; padding-bottom: .4rem; }
+.main-content h2 { font-size: 1.5rem; margin-top: 2.5rem; border-bottom: 1px solid #e1e4e8; padding-bottom: .3rem; }
+.main-content h3 { font-size: 1.15rem; margin-top: 2rem; color: #24292e; }
+
+/* ─── Tables ─────────────────────────────────────────────────── */
+.main-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.main-content table th {
+  background: #2ea44f;
+  color: #fff;
+  padding: .6rem 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.main-content table td {
+  padding: .55rem 1rem;
+  border-bottom: 1px solid #e1e4e8;
+  vertical-align: top;
+}
+
+.main-content table tr:nth-child(even) td {
+  background: #f6f8fa;
+}
+
+.main-content table tr:last-child td {
+  border-bottom: none;
+}
+
+.main-content table tr:hover td {
+  background: #eaf5ff;
+}
+
+/* ─── Code ───────────────────────────────────────────────────── */
+.main-content code {
+  background: #f0f0f0;
+  border-radius: 3px;
+  padding: .15em .4em;
+  font-size: .88em;
+  color: #d63031;
+}
+
+.main-content pre {
+  background: #1e1e2e;
+  color: #cdd6f4;
+  border-radius: 8px;
+  padding: 1.2rem;
+  overflow-x: auto;
+}
+
+.main-content pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+  font-size: .9em;
+}
+
+/* ─── Lists ──────────────────────────────────────────────────── */
+.main-content ul li {
+  margin-bottom: .4rem;
+}
+
+.main-content ul li strong:first-child {
+  color: #0366d6;
+}
+
+/* ─── Home page cards ────────────────────────────────────────── */
+.home-hero {
+  margin: 1rem 0 2rem;
+}
+
+.home-subtitle {
+  font-size: 1.1rem;
+  color: #586069;
+}
+
+.domain-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.domain-card {
+  display: flex;
+  align-items: flex-start;
+  gap: .85rem;
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: #24292e;
+  transition: box-shadow .15s, border-color .15s, transform .1s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.domain-card:hover {
+  border-color: #0366d6;
+  box-shadow: 0 4px 12px rgba(3, 102, 214, 0.15);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: #24292e;
+}
+
+.domain-card .card-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: .1rem;
+}
+
+.domain-card strong {
+  display: block;
+  font-size: .95rem;
+  color: #0366d6;
+  margin-bottom: .25rem;
+}
+
+.domain-card p {
+  margin: 0;
+  font-size: .85rem;
+  color: #586069;
+  line-height: 1.4;
+}
+
+/* ─── Blockquotes (used for key insights) ────────────────────── */
+.main-content blockquote {
+  border-left: 4px solid #2ea44f;
+  background: #f6fff9;
+  padding: .8rem 1rem;
+  border-radius: 0 6px 6px 0;
+  color: #24292e;
+}
+
+/* ─── Page header tweaks ─────────────────────────────────────── */
+.page-header {
+  background-image: linear-gradient(120deg, #155799, #159957);
+  padding: 2.5rem 1rem;
+}
+
+.page-header .project-name {
+  font-size: 2rem;
+}
