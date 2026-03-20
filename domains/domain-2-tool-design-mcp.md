@@ -1,3 +1,8 @@
+---
+layout: default
+title: Domain 2: Tool Design & MCP Integration
+---
+
 # Domain 2: Tool Design & MCP Integration
 
 ## tool-descriptions-as-selection-mechanism

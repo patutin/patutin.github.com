@@ -1,3 +1,8 @@
+---
+layout: default
+title: Domain 3: Claude Code Configuration & Workflows
+---
+
 # Domain 3: Claude Code Configuration & Workflows
 
 ## claude-md-hierarchy

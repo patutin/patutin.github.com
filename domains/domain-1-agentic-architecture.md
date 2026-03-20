@@ -1,3 +1,8 @@
+---
+layout: default
+title: Domain 1: Agentic Architecture & Orchestration
+---
+
 # Domain 1: Agentic Architecture & Orchestration
 
 ## agentic-loop-lifecycle

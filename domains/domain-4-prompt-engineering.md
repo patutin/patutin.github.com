@@ -1,3 +1,8 @@
+---
+layout: default
+title: Domain 4: Prompt Engineering & Structured Output
+---
+
 # Domain 4: Prompt Engineering & Structured Output
 
 ## explicit-criteria-over-vague
