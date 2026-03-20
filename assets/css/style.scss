@@ -270,7 +270,7 @@ body {
   display: flex;
   align-items: center;
   gap: .6rem;
-  margin-bottom: .45rem;
+  margin-bottom: .25rem;
   line-height: 1.65;
 }
 
@@ -280,6 +280,11 @@ body {
   font-size: 1.1em;
   flex-shrink: 0;
   line-height: 1;
+}
+
+/* Kill paragraph spacing inside list items */
+.main-content li > p {
+  margin: 0;
 }
 
 /* nested bullets */
@@ -295,7 +300,7 @@ body {
 
 /* ol items use default browser layout */
 .main-content ol > li {
-  margin-bottom: .45rem;
+  margin-bottom: .25rem;
   line-height: 1.65;
 }
 
