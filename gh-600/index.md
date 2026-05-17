@@ -11,7 +11,7 @@ permalink: /gh-600/
   <p class="home-subtitle">Personal study aggregation for <strong>Exam GH-600: Developing in Agentic AI Systems</strong>. Knowledge-domain breakdown with curated links into the official GitHub Copilot documentation.</p>
 </div>
 
-<div class="domain-cards">
+<div class="domain-cards" style="grid-template-columns: 1fr;">
   <a class="domain-card" href="{{ '/gh-600/exam-materials.html' | relative_url }}">
     <span class="card-icon" aria-hidden="true">📖</span>
     <div>
