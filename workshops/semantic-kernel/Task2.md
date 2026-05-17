@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Semantic Kernel Workshop — Session 2: Chaining Functions"
+redirect_from:
+  - /semantickernel/Task2/
+  - /semantickernel/Task2.html
+---
+
 # Workshop 2: Chaining Function in SemanticKernel
 
 ## Overview

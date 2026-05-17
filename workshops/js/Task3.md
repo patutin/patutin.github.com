@@ -1,3 +1,11 @@
+---
+layout: default
+title: "LangChain JS Workshop — Session 3: Tools & Agents"
+redirect_from:
+  - /jsworkshop/Task3/
+  - /jsworkshop/Task3.html
+---
+
 # Workshop 3: Tools and Agents in LangChainJS
 
 ## Practical Tasks

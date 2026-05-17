@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Domain 2: Tool Design & MCP Integration
+title: "Domain 2: Tool Design & MCP Integration"
+redirect_from:
+  - /domains/domain-2-tool-design-mcp/
+  - /domains/domain-2-tool-design-mcp.html
 ---
 
 # Domain 2: Tool Design & MCP Integration

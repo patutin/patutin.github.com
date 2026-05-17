@@ -1,3 +1,40 @@
+title: Roman Patutin
+tagline: Principal Software Engineer
+description: >-
+  Principal Software Engineer based in Batumi, Georgia.
+  Building AI-augmented systems, agentic workflows, and .NET platforms at EPAM.
+author:
+  name: Roman Patutin
+  url: https://github.com/patutin
+
+url: https://patutin.github.io
+
+social:
+  name: Roman Patutin
+  links:
+    - https://github.com/patutin
+    - https://www.linkedin.com/in/patutin/
+
 theme: jekyll-theme-cayman
-title: Claude Certified Architect – Foundations
-description: Study materials for the Claude Certified Architect exam.
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Semantic Kernel Workshop — Session 1: Introduction"
+redirect_from:
+  - /semantickernel/Task1/
+  - /semantickernel/Task1.html
+---
+
 ## Session 1: Introduction to SemanticKernel
 
 ### Prerequisites

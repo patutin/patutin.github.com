@@ -1,3 +1,11 @@
+---
+layout: default
+title: "LangChain JS Workshop — Session 2: Chains"
+redirect_from:
+  - /jsworkshop/Task2/
+  - /jsworkshop/Task2.html
+---
+
 # Workshop 2: Work with Chains in LangChainJS
 
 ## Overview

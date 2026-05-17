@@ -1,3 +1,11 @@
+---
+layout: default
+title: "LangChain JS Workshop — Session 1: Introduction"
+redirect_from:
+  - /jsworkshop/Task1/
+  - /jsworkshop/Task1.html
+---
+
 # Session 1: Introduction to LangChain
 
 ## Prerequisite
@@ -8,21 +16,28 @@ Before starting this session, ensure you have received the Azure OpenAI API keys
 ### Step 1: Project Setup
 - **1.1 Create a new project directory**:
   - Use the command line or terminal to create a new folder.
+- **1.2 Initialize a Node.js project**:
+  - Run `npm init` to create a `package.json` file.
 
-### Step 2: Install Python dependencies
+### Step 2: Install NPM Packages
 - **2.1 Install LangChain and other dependencies**:
-  - Copy `requrements.txt` to your directory.
-  - Run `pip install -r requirements.txt`.
+  - Run `npm install langchain axios dotenv`.
 
 ### Step 3: Azure OpenAI API Integration
 - **3.1 Configure .env file**:
   - Create a `.env` file in your project root.
   - Add your Azure OpenAI API keys and endpoint to the `.env` file for secure access.
 - **3.2 Create your first call to Azure OpenAI LLM model**:
-  -  Develop Python code to make the initial request to the Azure OpenAI LLM model using LangChain
+  -  Develop JavaScript code to make the initial request to the Azure OpenAI LLM model using LangChain
   -  Replace LLM Model With Chat Model, and check that it works as expected.
   -  With the same PromptTemplate, change the Temperature to see how the output changes.
 
+<details>
+  <summary>Hint</summary>
+
+Provide all four parameters for Azure: API_KEY, API_VERSION, BASE_PATH, and DEPLOYMENT_NAME
+
+</details>
 
 ### Step 4: Register on HuggingFace and Get an API Key
 
@@ -37,7 +52,6 @@ Before starting this session, ensure you have received the Azure OpenAI API keys
   - Select the appropriate permissions for your token.
   - Click the "Generate token" button.
   - Copy the generated API token and save it securely.
-  - Add your Hugging Face API token to the `.env` file.
 
 ### Step 5: HuggingFace Model Call
 - **5.1 Integrate HuggingFace model**:

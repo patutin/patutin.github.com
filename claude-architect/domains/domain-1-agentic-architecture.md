@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Domain 1: Agentic Architecture & Orchestration
+title: "Domain 1: Agentic Architecture & Orchestration"
+redirect_from:
+  - /domains/domain-1-agentic-architecture/
+  - /domains/domain-1-agentic-architecture.html
 ---
 
 # Domain 1: Agentic Architecture & Orchestration

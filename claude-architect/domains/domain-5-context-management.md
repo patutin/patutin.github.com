@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Domain 5: Context Management & Reliability
+title: "Domain 5: Context Management & Reliability"
+redirect_from:
+  - /domains/domain-5-context-management/
+  - /domains/domain-5-context-management.html
 ---
 
 # Domain 5: Context Management & Reliability

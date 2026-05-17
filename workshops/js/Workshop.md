@@ -1,3 +1,11 @@
+---
+layout: default
+title: "LangChain JS Workshop — Overview"
+redirect_from:
+  - /jsworkshop/Workshop/
+  - /jsworkshop/Workshop.html
+---
+
 # LangChain Workshop Overview
 
 ## Introduction to LangChain

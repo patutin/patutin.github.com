@@ -1,0 +1,32 @@
+- title: LangChain Workshop (Python)
+  href: https://github.com/patutin/LangChainWorkshop
+  description: Hands-on Python materials introducing LangChain — I/O, chains, tools, and agents — used as an EPAM internal learning week.
+  tags:
+    - Python
+    - LangChain
+    - Azure OpenAI
+    - Jupyter
+
+- title: LangChain JS Workshop
+  href: https://github.com/patutin/LangChainJSWorkshop
+  description: JavaScript counterpart of the LangChain workshop. Same arc — intro, chains, tools & agents — for JS/Node engineers.
+  tags:
+    - JavaScript
+    - LangChainJS
+    - Node
+
+- title: .NET Core Tracing & Profiling
+  href: https://github.com/patutin/dotnet-core-tracing-and-profiling
+  description: Practical scripts and notes for diagnosing .NET Core services in production — tracing, profiling, and performance triage.
+  tags:
+    - .NET Core
+    - Observability
+    - Performance
+
+- title: This site
+  href: https://github.com/patutin/patutin.github.com
+  description: Personal Jekyll site with a custom Anthropic-inspired theme. Doubles as a home for my certification study notes.
+  tags:
+    - Jekyll
+    - GitHub Pages
+    - SCSS

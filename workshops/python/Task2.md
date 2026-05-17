@@ -1,3 +1,11 @@
+---
+layout: default
+title: "LangChain Python Workshop — Session 2: Chains"
+redirect_from:
+  - /pyworkshop/Task2/
+  - /pyworkshop/Task2.html
+---
+
 # Workshop 2: Work with Chains in LangChain
 
 ## Overview

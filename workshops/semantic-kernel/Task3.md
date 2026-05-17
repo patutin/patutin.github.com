@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Semantic Kernel Workshop — Session 3: Plugins"
+redirect_from:
+  - /semantickernel/Task3/
+  - /semantickernel/Task3.html
+---
+
 # Workshop 3: Plugins in SemanticKernel
 
 ## Practical Tasks

@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Domains Knowledge
+title: Domains Knowledge Summary
+redirect_from:
+  - /domains/domains-knowlege/
+  - /domains/domains-knowlege.html
 ---
 
 # Domains Knowledge

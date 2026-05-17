@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Domain 4: Prompt Engineering & Structured Output
+title: "Domain 4: Prompt Engineering & Structured Output"
+redirect_from:
+  - /domains/domain-4-prompt-engineering/
+  - /domains/domain-4-prompt-engineering.html
 ---
 
 # Domain 4: Prompt Engineering & Structured Output

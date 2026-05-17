@@ -1,3 +1,11 @@
+---
+layout: default
+title: "LangChain Python Workshop — Overview"
+redirect_from:
+  - /pyworkshop/Workshop/
+  - /pyworkshop/Workshop.html
+---
+
 # LangChain Workshop Overview
 
 ## Introduction to LangChain

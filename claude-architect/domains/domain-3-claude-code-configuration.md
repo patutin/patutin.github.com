@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Domain 3: Claude Code Configuration & Workflows
+title: "Domain 3: Claude Code Configuration & Workflows"
+redirect_from:
+  - /domains/domain-3-claude-code-configuration/
+  - /domains/domain-3-claude-code-configuration.html
 ---
 
 # Domain 3: Claude Code Configuration & Workflows

@@ -1,3 +1,11 @@
+---
+layout: default
+title: "LangChain Python Workshop — Session 3: Tools & Agents"
+redirect_from:
+  - /pyworkshop/Task3/
+  - /pyworkshop/Task3.html
+---
+
 # Workshop 3: Tools and Agents in LangChain
 
 ## Practical Tasks
