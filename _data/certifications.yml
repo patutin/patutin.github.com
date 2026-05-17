@@ -1,9 +1,10 @@
+- title: GH-600 — Developing in Agentic AI Systems
+  href: /gh-600/
+  icon: "🛠️"
+  description: Knowledge-domain breakdown for Microsoft's GH-600, mapped to the official GitHub Copilot documentation and gh-aw reference.
+
 - title: Claude Certified Architect — Foundations
   href: /claude-architect/
   icon: "🎓"
   description: Study materials and cheat sheets across all 5 exam domains — agentic architecture, tool design & MCP, Claude Code configuration, prompt engineering, and context management.
 
-- title: GH-600 — Developing in Agentic AI Systems
-  href: /gh-600/
-  icon: "🛠️"
-  description: Knowledge-domain breakdown for Microsoft's GH-600, mapped to the official GitHub Copilot documentation and gh-aw reference.
